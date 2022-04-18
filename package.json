@@ -1,0 +1,29 @@
+{
+  "name": "projeto-rest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/ index.js",
+    "test": "jest --env node --detectOpenHandles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Israelhenrique-dev/projeto-rest.git"
+  },
+  "keywords": [],
+  "author": "Israel H",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Israelhenrique-dev/projeto-rest/issues"
+  },
+  "homepage": "https://github.com/Israelhenrique-dev/projeto-rest#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "body-parser": "^1.20.0",
+    "express": "^4.17.3",
+    "jest": "^27.5.1",
+    "nodemon": "^2.0.15",
+    "pg-promise": "^10.11.1"
+  }
+}
